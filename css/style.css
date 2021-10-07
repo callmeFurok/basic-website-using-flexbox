@@ -1,0 +1,17 @@
+/*========= FONTS ============*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/*NOTA: Ya no reseteamos los valores del "User Agent" ya que lo hicimos en el "normalize.css"*/
+
+/*============ VARIABLES ============*/
+:root {
+    --padding-container: 80px 0;
+    --color-primary: #f77062;
+    --color-secondary: #1b998b;
+    --colog-gb: #fafafa;
+    --align-title: center;
+    --box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
