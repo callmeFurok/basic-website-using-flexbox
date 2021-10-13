@@ -78,7 +78,7 @@ body {
     text-align: var(--align-title);
 }
 
-.about__container {
+.about {
     display: flex;
     justify-content: space-between;
     align-items: center;
