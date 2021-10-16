@@ -196,3 +196,82 @@ body {
     object-fit: cover;
     box-shadow: var(--box-shadow);
 }
+
+/*=================== LANGUAGES SECTION ==============*/
+.languages {
+    background: var(--colog-gb);
+}
+
+.languages__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.languages__picture {
+    width: 20%;
+    height: 100px;
+}
+
+/*===================== FOOTER  SECTION ==============*/
+.footer {
+    background: var(--color-primary);
+    color: #fff;
+    text-align: center;
+}
+
+.footer__container {
+    /*cambiamos el color de la variable para que solo
+    afecte en este "scope"*/
+    --color-primary: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__texts {
+    width: 50%;
+}
+
+.footer__icon {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0 30px 30px;
+    text-decoration: none;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.footer__icon.bx {
+    line-height: 60px;
+}
+
+.footer__icon:hover {
+    background: white;
+    color: #f77062;
+    cursor: pointer;
+}
+
+.footer__link {
+    display: inline-block;
+    color: white;
+    margin: 0 20px 15px;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__img {
+    margin: 0;
+    width: 35%;
+}
+
+.footer__picture {
+    width: 90%;
+}
+
