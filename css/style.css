@@ -360,12 +360,62 @@ body {
         width: 45%;
     }
 
-    .footer__picture{
+    .footer__picture {
         width: 100%;
     }
 
-    .footer__texts{
+    .footer__texts {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero__img {
+        width: 85%;
+    }
+
+    .hero__picture {
+        max-width: 100%;
+    }
+
+    .hero__copy {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .about__texts {
         width: 100%;
     }
 
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .portfolio__card {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .gallery___picture {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .languages__container {
+        justify-content: space-around;
+    }
+
+    .languages__picture {
+        width: 35%;
+        margin-bottom: 30px;
+    }
+
+    .footer__img {
+        width: 90%;
+    }
+
+    .footer__picture {
+        max-width: 330px;
+        margin-bottom: 40px;
+    }
 }
