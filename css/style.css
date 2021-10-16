@@ -62,11 +62,11 @@ body {
 }
 
 .hero__title {
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 .hero__copy {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 300;
 }
 
@@ -275,3 +275,97 @@ body {
     width: 90%;
 }
 
+/*==================== RESPONSIVE DESIGN ================*/
+
+/*si el usuario esta en una pantalla de 800 o menos , el diseño cambiara*/
+@media screen and (max-width: 800px) {
+
+    /*============ HERO SECTION ==========*/
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        --padding-container: 40px 0;
+    }
+
+    .hero__main {
+        justify-content: center;
+    }
+
+    .hero__img {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .hero__picture {
+        width: 90%;
+    }
+
+    .hero__texts {
+        width: 100%;
+    }
+
+    .hero__title {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .hero__copy {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    /*======= ABOUT SECTION =========*/
+    .about__texts {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto 80px;
+    }
+
+    .about__paragraph {
+        text-align: left;
+    }
+
+    .about__img {
+        width: 100%;
+    }
+
+    /*============ PORTFOLIO ===========*/
+    .portfolio__card {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    /*=========== GALLERY SECTION ==============*/
+    .gallery___picture {
+        width: 45%;
+    }
+
+    /*========= LANGUAGES SECTION ==========*/
+    .languages__container {
+        justify-content: space-between;
+    }
+
+    .languages__picture {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+
+    /*=========== FOOTER ============*/
+    .footer__container {
+        flex-direction: column-reverse;
+    }
+
+    .footer__img {
+        width: 45%;
+    }
+
+    .footer__picture{
+        width: 100%;
+    }
+
+    .footer__texts{
+        width: 100%;
+    }
+
+}
