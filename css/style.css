@@ -168,3 +168,13 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+/*======================  COPY SECTION ============*/
+.copy {
+    background: var(--color-primary);
+}
+
+.title--margin {
+    color: white;
+    margin: 0;
+}
